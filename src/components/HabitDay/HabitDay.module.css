@@ -1,0 +1,33 @@
+.dayTableItem {
+    width: 40px;
+    height: 40px;
+    background-color: var(--square-color-1);
+    border: 2px solid var(--square-border-1);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.dayTableItem:hover {
+    transform: scale(1.2);
+}
+
+.content {
+    min-width: 320px;
+    padding: 24px;
+    border-radius: 16px;
+    background-color: #18181B;
+    display: flex;
+    flex-direction: column;
+}
+
+.weekDaySpan {
+    font-weight: 600;
+    color: #A1A1AA;
+}
+
+.dateSpan {
+    margin-top: 4px;
+    font-weight: bolder;
+    font-size: 16pt;
+}

@@ -1,0 +1,74 @@
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+.form label {
+    font-weight: 600;
+}
+
+.form input {
+    padding: 16px;
+    border-radius: 8px;
+    margin-top: 12px;
+    background-color: #27272A;
+    border: none;
+}
+
+.checkBoxLabel {
+    margin-top: 16px;
+}
+
+.submitButton {
+    margin-top: 24px;
+    border-radius: 8px;
+    padding: 16px;
+    gap: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    background-color: #16A34A;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.submitButton:hover {
+    background-color: #22C55E;
+}
+
+.checkBoxWrapper {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.checkBox {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.checkBox span {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.checkBoxSquare {
+    height: 32px;
+    width: 32px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--square-color-1);
+    border: 2px solid var(--square-border-1);
+    transition: all 0.2s ease;
+}

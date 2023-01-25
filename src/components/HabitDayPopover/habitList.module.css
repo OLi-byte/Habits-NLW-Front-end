@@ -1,0 +1,36 @@
+.checkBoxWrapper {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.checkBox {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.checkBox span {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.checkBoxWrapper .checkBox:checked ~ .checkBoxSquare {
+    background-color: red;
+}
+
+.checkBoxSquare {
+    height: 32px;
+    width: 32px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--square-color-1);
+    border: 2px solid var(--square-border-1);
+    transition: all 0.2s ease;
+}

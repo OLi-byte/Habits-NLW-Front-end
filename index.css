@@ -1,0 +1,21 @@
+:root {
+    --backgrond-color: #09090A;
+    --primary-color: #8B5CF6;
+    --hover-color: #C4B5FD;
+    --gray: #A1A1AA;
+    --square-color-1: #18181B;
+    --square-border-1: #27272A;
+    --modal-color: #18181B;
+}
+
+* {
+    color: white;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--backgrond-color);
+}

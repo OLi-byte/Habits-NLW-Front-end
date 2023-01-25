@@ -1,0 +1,75 @@
+.header {
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.create_new_habit_button {
+    border: 1px solid var(--primary-color);
+    background-color: transparent;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 16px 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    transition: all 0.2s ease;
+}
+
+.create_new_habit_button:hover {
+    background-color: var(--primary-color);
+    box-shadow: var(--primary-color) 0px 5px 15px;
+    transform: scale(1.2);
+    color: #27272A;
+    gap: 0px;
+    padding-left: 12px;
+}
+
+.create_new_habit_button:hover {
+    border: 1px solid var(--hover-color);
+}
+
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 80%;
+    position: fixed;
+    inset: 0;
+}
+
+.content {
+    position: absolute;
+    padding: 40px;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 448px;
+    background-color: var(--modal-color);
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.closeButton {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-color: transparent;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    transition: all 0.2s ease;
+}
+
+.closeButton:hover {
+    background-color: #27272A;
+}

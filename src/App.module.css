@@ -1,0 +1,16 @@
+.page_content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1024px;
+    padding: 0 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}

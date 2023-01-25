@@ -1,0 +1,14 @@
+.progressBarOf {
+    height: 12px;
+    border-radius: 8px;
+    background-color: #3F3F46;
+    width: 100%;
+    margin-top: 16px;
+}
+
+.progressBar {
+    height: 12px;
+    border-radius: 8px;
+    background-color: #7C3AED;
+    transition: all 0.2s ease;
+}
